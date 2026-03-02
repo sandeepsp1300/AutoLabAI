@@ -1,38 +1,104 @@
+🚀 AI Career Future Analyzer
 
-# AutoLab AI v2.0 – Mini Employment Impact Predictor
+An intelligent web-based platform designed to help individuals understand how Artificial Intelligence will impact their careers, job security, salary growth, and future opportunities.
 
-This project is a high-fidelity analytical prototype based on the research paper:
-*"AI-Driven Automation and Labor Market Dynamics: A Quantitative Analysis Using Predictive Modeling"*
+This system provides data-driven insights to guide users toward future-proof career decisions in an AI-driven world.
 
-## 🚀 Final Stage Features
-- **Deep EDA Module**: Sector-wise trends, AI adoption heatmaps, and correlation analysis.
-- **Model Comparison Suite**: Comparative benchmarking of Linear, RF, and Gradient Boosting models.
-- **Scenario Simulation Engine**: Test "Low" to "Extreme Shock" technological adoption paths.
-- **Job Category Risk Dashboard**: Specialized analysis for Routine vs. Tech vs. Creative roles.
-- **Explainable AI (XAI)**: Understand feature importance for every prediction.
-- **Research Report Generator**: Automated PDF/Markdown summary of simulation findings.
+🔹 Key Features
+1️⃣ Automation Risk Detection
 
-## 🛠️ How to Run Project
-1. **Initialize Data**:
-   ```bash
-   python generate_dataset.py
-   ```
-2. **Train Models**:
-   ```bash
-   python train_model.py
-   ```
-   *Note: This script automatically selects the champion model (Random Forest) based on lowest RMSE.*
-3. **Launch Dashboard**:
-   ```bash
-   streamlit run app.py
-   ```
+The system analyzes job roles and identifies their risk level due to AI automation.
 
-## 📊 Example Test Inputs
-- **Manufacturing** + High Routine (80%) + High Robots (400) -> **Displacement Outcome** (~ -4.5%)
-- **Healthcare** + High AI Spending (90%) + Low Routine (10%) -> **Augmentation Outcome** (~ +5.2%)
+Example Insights:
 
-## 📂 Project Structure
-- `app.py`: Main Streamlit UI.
-- `train_model.py`: Multi-model pipeline and serialization.
-- `report_generator.py`: LLM-inspired research synthesis.
-- `automation_dataset.csv`: Synthetic quantitative baseline.
+Routine Jobs → High Risk
+
+Clerical Jobs → Very High Risk
+
+Technical Jobs → Low Risk
+
+✅ Helps users understand job safety in the AI era.
+
+2️⃣ Future Job Demand Prediction
+
+Predicts which job categories are expected to grow or decline.
+
+Expected Output:
+
+Tech Jobs → High Growth
+
+Creative Jobs → Medium Growth
+
+Manual Routine Jobs → Decline
+
+✅ Helps users choose future-ready career paths.
+
+3️⃣ Salary Impact Analysis
+
+Evaluates how AI may influence income levels across skill groups.
+
+Expected Result:
+
+High Skill → Salary Increase
+
+Medium Skill → Stable
+
+Low Skill → Salary Decrease
+
+✅ Assists in long-term career planning.
+
+4️⃣ AI Readiness Score
+
+Calculates how prepared a user is for the AI-powered future.
+
+Example:
+AI Readiness Score = 72%
+➡ Indicates moderate readiness for the AI-driven economy.
+
+5️⃣ Career Stability Index
+
+Measures job security in an AI-dominated landscape.
+
+Examples:
+
+Low Stability → Routine Clerical Roles
+
+High Stability → Technical Roles
+
+6️⃣ Skill Recommendation System
+
+Suggests future-relevant skills based on user profile.
+
+Recommended Skills May Include:
+
+Data Literacy
+
+Digital Tools
+
+Problem Solving
+
+7️⃣ Career Growth Insight
+
+Provides a future outlook of the user's career.
+
+Example:
+Future Career Outlook =
+✔ Positive
+✔ Neutral
+✔ Negative
+
+📊 Final Output Dashboard
+
+After analysis, users receive:
+
+✔ Automation Risk Percentage
+
+✔ Future Job Demand Prediction
+
+✔ Salary Impact Insight
+
+✔ AI Readiness Score
+
+✔ Career Stability Index
+
+✔ Personalized Skill Recommendations
